@@ -120,13 +120,13 @@ abstracción y encapsulamiento característicos de la Programación Orientada a 
 
 La clase ha de contener al menos métodos que permitan las siguientes operaciones con números complejos:
 
-* `Print()` Imprimir un número complejo 
-* `add()` Sumar 
-* `sub()` Restar
-* `mul()` Multiplicar
-* `div()` Dividir
-* `abs()` Calcular el valor absoluto
-* `conj()` Calcular el conjugado de un número complejo
+* `print` Imprimir un número complejo 
+* `add` Sumar 
+* `sub` Restar
+* `mul` Multiplicar
+* `div` Dividir
+* `abs` Calcular el valor absoluto
+* `conj` Calcular el conjugado de un número complejo
 
 Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Complejo`.
 
