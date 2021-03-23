@@ -24,8 +24,8 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
   Studio Code.
 
 ### Indicaciones de caracter general
-Configure un fichero `package.json` en el directorio raíz de su repositorio de modo que ejecutando 
-`npm install` queden instaladas todas las dependencias de su proyecto.
+Configure un fichero `package.json` diferente para cada uno de sus "proyectos" (ejercicios)
+de modo que ejecutando `npm install` queden instaladas todas las dependencias del proyecto.
 
 En los primeros ejercicios que se propone, los programas ya han sido realizados en sesiones de prácticas
 anteriores de modo que los tests unitarios que se propone desarrollar serían desarrollados *a posteriori*. 
@@ -40,7 +40,7 @@ El *hook* *describe* es posiblemente la mejor herramienta para la documentación
 ser la única.
 Incluya comentarios de cabecera también en los ficheros `*.spec.js` de pruebas de código.
 
-### Tests uniarios para *Prime Factors*
+### 1.- Tests uniarios para *Prime Factors*
 Cree un nuevo proyecto tomando como punto de partida el programa `prime-factors.js` que resuelve el problema
 [*Prime Factors*](https://exercism.io/my/solutions/fce10654772240b3b22955cd5aeb855a)
 del *track* de JavaScript de 
@@ -53,27 +53,27 @@ Compruebe que el programa pasa todos los tests que desarrolle.
 Compare finalmente los tests que Ud. ha desarrollado con los que la plataforma Exercism propone para ese mismo
 problema.
 
-### Tests uniarios para *Strain*
+### 2.- Tests uniarios para *Strain*
 Repita el ejercicio anterior, pero en este caso para el programa `strain.js` correspondiente al problema
 [*Strain*](https://exercism.io/my/solutions/03d029e7331642fd8a15501eb1ae64bf)
 de Exercism.
 
-### Tests uniarios para *Sieve*
+### 3.- Tests uniarios para *Sieve*
 Repita el ejercicio anterior, pero en este caso para el programa `sieve.js` correspondiente al problema
 [*Sieve*](https://exercism.io/my/solutions/6b48d3e059014849952c2886ac3ba9bd)
 de Exercism.
 
-### Tests uniarios para *Sum of Multiples*
+### 4.- Tests uniarios para *Sum of Multiples*
 Repita el ejercicio anterior, pero en este caso para el programa `sieve.js` correspondiente al problema
 [*Sieve*](https://exercism.io/my/solutions/6b48d3e059014849952c2886ac3ba9bd)
 de Exercism.
 
-### Tests uniarios para *Roman Numerals*
+### 5.- Tests uniarios para *Roman Numerals*
 Repita el ejercicio anterior, pero en este caso para el programa `roman-numerals.js` correspondiente al problema
 [*Roman Numerals*](https://exercism.io/my/solutions/5bd5622efab448d9b12233e779696a41)
 de Exercism.
 
-### La clase *Clock*
+### 6.- La clase *Clock*
 En este ejercicio se propone desarrollar una clase `Clock` para representar un reloj digital con horas y
 minutos (no es necesario contemplar segundos).
 
@@ -89,7 +89,7 @@ Análogamente, dos relojes que representen la misma hora deben ser iguales entre
 
 
 
-### La clase *Complejo*
+### 7.- La clase *Complejo*
 Un
 [número complejo](https://es.wikipedia.org/wiki/N%C3%BAmero_complejo)
 puede representarse como la suma de un número real y un número imaginario, de la forma `a + bi` donde el
