@@ -64,8 +64,8 @@ Repita el ejercicio anterior, pero en este caso para el programa `sieve.js` corr
 de Exercism.
 
 ### 4.- Tests uniarios para *Sum of Multiples*
-Repita el ejercicio anterior, pero en este caso para el programa `sieve.js` correspondiente al problema
-[*Sieve*](https://exercism.io/my/solutions/6b48d3e059014849952c2886ac3ba9bd)
+Repita el ejercicio anterior, pero en este caso para el programa `sum-of-multiples.js` correspondiente al problema
+[*Sum of Multiples*](https://exercism.io/my/solutions/f51f679400aa4d93a1b278c4bd73d5b8)
 de Exercism.
 
 ### 5.- Tests uniarios para *Roman Numerals*
