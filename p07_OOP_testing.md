@@ -96,12 +96,15 @@ La clase ha de contemplar métodos que permitan sumar y restar minutos a un obje
 Análogamente, dos objetos que representen la misma hora deben ser iguales entre sí.
 Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Complejo`.
 
+Previo a la implementación de la clase, diseñe y desarrolle un conjunto de tests para probar el correcto
+funcionamiento de todos los métodos de la clase.
+
 Encapsule la clase en un módulo que exporte la misma hacia otros programas clientes que pudieran utilizarla.
 
 Desarrolle un programa *cliente* que utilice la clase *Clock* e instancie objetos de esa clase:
 ```javascript
-const horaActual = new Clock(12, 0);
-console.log(horaActual.toString());
+const horaActual = new Clock(11, 59);
+console.log(horaActual.toString());   // 11:59h
 ```
 
 ### 7.- La clase *Complejo*
@@ -133,6 +136,3 @@ funcionamiento de todos los métodos de la clase.
 Desarrolle un programa cliente `complejos.js` que permita operar con números complejos y haga uso de la clase `Complejo` que diseñe.
 El programa cliente definirá un par de números complejos `-1-5i` y `1+i` y realice todas las operaciones
 anteriores utilizando ambos números como operandos.
-
-Previo al desarrollo de los métodos, diseñe y desarrolle un conjunto de tests para probar el correcto
-funcionamiento de todos los métodos de la clase.
