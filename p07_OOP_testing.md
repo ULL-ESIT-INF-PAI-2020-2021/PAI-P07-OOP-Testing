@@ -24,18 +24,21 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
   Studio Code.
 
 ### Indicaciones de caracter general
-A la hora de resolver los problemas que se le proponen, trate de usar exclusivamente las características de
-JavaScript que ha estudiado en clase o bien en el material que se le ha pedido que estudie.
-
-Descarte soluciones avanzadas y nunca utilice código que no sea Ud. capaz de comprender y explicar a otra
-persona.
-
-Puesto que en la práctica anterior ya se ha trabajado con módulos CommonJS se propone aquí que
-la aplicación que desarrolle se organice utilizando
-[módulos ES6](https://blog.logrocket.com/es-modules-in-node-today/)
-
 Configure un fichero `package.json` en el directorio raíz de su repositorio de modo que ejecutando 
 `npm install` queden instaladas todas las dependencias de su proyecto.
+
+En los primeros ejercicios que se propone, los programas ya han sido realizados en sesiones de prácticas
+anteriores de modo que los tests unitarios que se propone desarrollar serían desarrollados *a posteriori*. 
+Esta no es la práctica habitual al seguir la metodología TDD sino que los tests (al igual que la
+documentación) han de comenzar a desarrollarse **antes** de desarrollar el código.
+
+Independientemente de cómo se implemente una función, el desarrollador conoce de antemano los resultados que
+esa función debe entregar como correctos.
+Recuerde asimismo que los tests de código son en sí mismo programas y como tales han de estar correctamente
+documentados.
+El *hook* *describe* es posiblemente la mejor herramienta para la documentación de sus tests, pero no ha de
+ser la única.
+Incluya comentarios de cabecera también en los ficheros `*.spec.js` de pruebas de código.
 
 ### Tests uniarios para *Prime Factors*
 Cree un nuevo proyecto tomando como punto de partida el programa `prime-factors.js` que resuelve el problema
@@ -69,4 +72,51 @@ de Exercism.
 Repita el ejercicio anterior, pero en este caso para el programa `roman-numerals.js` correspondiente al problema
 [*Roman Numerals*](https://exercism.io/my/solutions/5bd5622efab448d9b12233e779696a41)
 de Exercism.
+
+### La clase *Clock*
+En este ejercicio se propone desarrollar una clase `Clock` para representar un reloj digital con horas y
+minutos (no es necesario contemplar segundos).
+
+La clase no ha de usar en modo alguno objetos 
+[Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+de JavaScript y se desarrollará usando la sintaxis para clases de JavaScript y poniendo en práctica los principios de
+abstracción y encapsulamiento característicos de la Programación Orientada a Objetos.
+
+La clase ha de contener un método *toString()* que permita imprimir en pantalla un objeto *Clock* en el
+formato `hh:mm`.
+La clase ha de contemplar métodos que permitan sumar y restar minutos a un *objeto* reloj.
+Análogamente, dos relojes que representen la misma hora deben ser iguales entre sí.
+
+
+
+### La clase *Complejo*
+Un
+[número complejo](https://es.wikipedia.org/wiki/N%C3%BAmero_complejo)
+puede representarse como la suma de un número real y un número imaginario, de la forma `a + bi` donde el
+término `a` es la parte real, `b` la parte imaginaria e `i` la
+[unidad imaginaria](https://es.wikipedia.org/wiki/Unidad_imaginaria).
+
+En este ejercicio se propone desarrollar una clase `Complejo` que permita operar con números complejos.
+La clase se desarrollará usando la sintaxis para clases de JavaScript y poniendo en práctica los principios de
+abstracción y encapsulamiento característicos de la Programación Orientada a Objetos.
+
+Desarrolle un programa cliente `complejos.js` que permita operar con números complejos y haga uso de la clase `Complejo` que diseñe.
+La clase ha de contener al menos métodos que permitan las siguientes operaciones con números complejos:
+
+* `Print()` Imprimir un número complejo 
+* `add()` Sumar 
+* `sub()` Restar
+* `mul()` Multiplicar
+* `div()` Dividir
+* `abs()` Calcular el valor absoluto
+* `conj()` Calcular el conjugado de un número complejo
+
+Incluya (discrecionalmente) cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Complejo`.
+
+El programa cliente definirá un par de números complejos `-1-5i` y `1+i` y realice todas las operaciones
+anteriores utilizando ambos números como operandos.
+
+Previo al desarrollo de los métodos, diseñe y desarrolle un conjunto de tests para probar el correcto
+funcionamiento de todos los métodos de la clase.
+
 
