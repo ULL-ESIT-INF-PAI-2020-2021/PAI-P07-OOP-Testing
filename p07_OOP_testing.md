@@ -48,6 +48,17 @@ El *hook* *describe* es posiblemente la mejor herramienta para la documentación
 ser la única.
 Incluya comentarios de cabecera también en los ficheros `*.spec.js` de pruebas de código.
 
+En esta práctica y las siguientes se promoverá el uso del paradigma orientado a objetos.
+Así pues los programas estarán organizados en torno a clases que se han de implementar usando la sintaxis para
+clases de JavaScript y poniendo en práctica los principios de abstracción y encapsulamiento característicos 
+de la Programación Orientada a Objetos.
+Vigile siempre el tipo de visibilidad que elige para los atributos (properties) de sus clases
+(encapsulamiento) y tenga en cuenta tanto las reglas de 
+[estilo](https://google.github.io/styleguide/jsguide.html#features-classes)
+como las 
+[etiquetas JSDoc](https://stackoverflow.com/questions/41715994/how-to-document-ecma6-classes-with-jsdoc)
+relacionadas con el constructo 'class'.
+
 ### 1.- Tests uniarios para *Prime Factors*
 Cree un nuevo proyecto tomando como punto de partida el programa `prime-factors.js` que resuelve el problema
 [*Prime Factors*](https://exercism.io/my/solutions/fce10654772240b3b22955cd5aeb855a)
