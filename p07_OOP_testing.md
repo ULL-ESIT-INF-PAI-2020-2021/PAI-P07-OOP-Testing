@@ -53,7 +53,7 @@ Así pues los programas estarán organizados en torno a clases que se han de imp
 clases de JavaScript y poniendo en práctica los principios de abstracción y encapsulamiento característicos 
 de la Programación Orientada a Objetos.
 Vigile siempre el tipo de visibilidad que elige para los atributos (properties) de sus clases
-(encapsulamiento) y tenga en cuenta tanto las reglas de 
+y tenga en cuenta tanto las reglas de 
 [estilo](https://google.github.io/styleguide/jsguide.html#features-classes)
 como las 
 [etiquetas JSDoc](https://stackoverflow.com/questions/41715994/how-to-document-ecma6-classes-with-jsdoc)
