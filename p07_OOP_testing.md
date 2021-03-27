@@ -105,7 +105,7 @@ La clase ha de contener un método *toString()* que permita imprimir en pantalla
 formato `hh:mm`.
 La clase ha de contemplar métodos que permitan sumar y restar minutos a un objeto *Clock*.
 Análogamente, dos objetos que representen la misma hora deben ser iguales entre sí.
-Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Complejo`.
+Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Clock`.
 
 Previo a la implementación de la clase, diseñe y desarrolle un conjunto de tests para probar el correcto
 funcionamiento de todos los métodos de la clase.
